@@ -1,0 +1,22 @@
+.template {
+    display: none;
+}
+
+.logs
+{
+border: solid;
+text-align: center;
+width: 10%;
+padding: 10px;
+color:brown;
+}
+
+.totalCalories
+{
+border: solid;
+padding: 10px;
+text-align: center;
+display: flex;
+width: 10%;
+color:green;
+}

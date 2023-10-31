@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lab 9: Simple Calorie Calculator</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Calorie Logs</h1>
+    <h2>Log Details</h2>
+    <p>Fill out Log Information</p>
+    
+        <label for="name"> Food/Activity:</label><br>
+        <input type="text" id="name" name="name"><br>
+        
+        <label for="logType">Log Type:</label><br>
+        <select id="logType" name="logType" form="calorieForm">
+            <option value="Food">Food</option>
+            <option value="Activity">Activity</option>
+        </select><br>
+
+        <label for="calories"> Calories:</label><br>
+        <input type="number" id="calories" name="calories"><br>
+        
+    <button type="submit" id="submit">Submit</button>
+
+    <p>Total Calories: </p> <p class="totalCalories">0</p>
+<br>
+<div class="template">
+    <p class="name"></p>
+    <p class="logType"></p>
+    <p class="calories"></p>
+</div>
+</body>
+</html>
